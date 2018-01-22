@@ -3,9 +3,7 @@ import PropTypes from 'prop-types';
 
 import './App.scss';
 
-const App = props => {
-  return <h1 className="hello">Hello world!</h1>;
-};
+const App = props => <h1 className="hello">Hello world!</h1>;
 
 App.propTypes = {};
 
